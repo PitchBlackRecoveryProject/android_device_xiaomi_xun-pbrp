@@ -20,7 +20,7 @@
 PRODUCT_PLATFORM := bengal
 
 # Inherit from xun device
-$(call inherit-product, device/Xiaomi/xun/device.mk)
+$(call inherit-product, device/xiaomi/xun/device.mk)
 
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/pb/config/common.mk)
@@ -35,4 +35,4 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Device path
-DEVICE_PATH := device/Xiaomi/xun
+DEVICE_PATH := device/xiaomi/xun
