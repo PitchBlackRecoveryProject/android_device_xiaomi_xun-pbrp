@@ -28,8 +28,8 @@ $(call inherit-product, vendor/pb/config/common.mk)
 # Product Specifics
 PRODUCT_NAME := pb_xun
 PRODUCT_DEVICE := xun
-PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi Pad SE
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL :=  Redmi Pad SE
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
