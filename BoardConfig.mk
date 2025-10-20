@@ -151,7 +151,6 @@ TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/devices/virtual/thermal/thermal_zone34/temp"
 TW_BRIGHTNESS_PATH := "/sys/devices/platform/soc/4ac0000.qcom,qupv3_0_geni_se/4a84000.i2c/i2c-0/0-0011/backlight/bkl-bl/max_brightness"
 TW_STATUS_ICONS_ALIGN := center
-TW_CUSTOM_CPU_POS := "270"
 TW_CUSTOM_CLOCK_POS := "65"
 TW_CUSTOM_BATTERY_POS := "800"
 TW_DEFAULT_BRIGHTNESS := 500
