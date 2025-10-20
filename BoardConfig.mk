@@ -147,6 +147,7 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 # TWRP specific build flags
 TARGET_RECOVERY_QCOM_RTC_FIX := true
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
+PB_OFFICIAL := true
 #TW_THEME := portrait_hdpi
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/devices/virtual/thermal/thermal_zone34/temp"
 TW_BRIGHTNESS_PATH := "/sys/devices/platform/soc/4ac0000.qcom,qupv3_0_geni_se/4a84000.i2c/i2c-0/0-0011/backlight/bkl-bl/max_brightness"
